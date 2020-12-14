@@ -1,0 +1,230 @@
+{
+ "allow_rename": 1,
+ "creation": "2020-12-14 15:18:44.484297",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "title",
+  "department",
+  "reports_to",
+  "section_break_4",
+  "general_overview_of_the_position",
+  "section_break_6",
+  "main_duties_and_responsibilities",
+  "other_duties",
+  "section_break_9",
+  "internal_key_contacts",
+  "external_key_contacts",
+  "resources_section",
+  "desktop",
+  "laptop",
+  "tablet",
+  "mobile_phone",
+  "column_break_17",
+  "official_gmail_account",
+  "official_mobile_number",
+  "business_card",
+  "identity_card",
+  "column_break_22",
+  "uniform",
+  "safety_shoes",
+  "safety_equipment",
+  "key_responsibility_areas_section",
+  "kra",
+  "note",
+  "section_break_29",
+  "experience_required",
+  "qualification_required"
+ ],
+ "fields": [
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Link",
+   "label": "Department",
+   "options": "Department"
+  },
+  {
+   "fieldname": "reports_to",
+   "fieldtype": "Select",
+   "label": "Reports To",
+   "options": "\nDirector\nVice President\nAssistant Vice President\nGeneral Manager\nAssistant General Manager\nDeputy General Manager\nSr. Manager\nAssistant Manager\nSr. Supervisor\nSupervisor\nTeam Leader"
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "general_overview_of_the_position",
+   "fieldtype": "Text Editor",
+   "label": "General Overview of the Position"
+  },
+  {
+   "fieldname": "section_break_6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "main_duties_and_responsibilities",
+   "fieldtype": "Table",
+   "label": "Main Duties and Responsibilities",
+   "options": "Job Role Responsibilities"
+  },
+  {
+   "fieldname": "other_duties",
+   "fieldtype": "Table",
+   "label": "Other Duties",
+   "options": "Job Role Responsibilities"
+  },
+  {
+   "fieldname": "section_break_9",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "internal_key_contacts",
+   "fieldtype": "Small Text",
+   "label": "Internal Key Contacts"
+  },
+  {
+   "fieldname": "external_key_contacts",
+   "fieldtype": "Small Text",
+   "label": "External Key Contacts"
+  },
+  {
+   "fieldname": "resources_section",
+   "fieldtype": "Section Break",
+   "label": "Resources"
+  },
+  {
+   "default": "0",
+   "fieldname": "desktop",
+   "fieldtype": "Check",
+   "label": "Desktop"
+  },
+  {
+   "default": "0",
+   "fieldname": "laptop",
+   "fieldtype": "Check",
+   "label": "Laptop"
+  },
+  {
+   "default": "0",
+   "fieldname": "tablet",
+   "fieldtype": "Check",
+   "label": "Tablet"
+  },
+  {
+   "default": "0",
+   "fieldname": "mobile_phone",
+   "fieldtype": "Check",
+   "label": "Mobile Phone"
+  },
+  {
+   "fieldname": "column_break_17",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "official_gmail_account",
+   "fieldtype": "Check",
+   "label": "Official Gmail Account"
+  },
+  {
+   "default": "0",
+   "fieldname": "official_mobile_number",
+   "fieldtype": "Check",
+   "label": "Official Mobile Number"
+  },
+  {
+   "default": "0",
+   "fieldname": "business_card",
+   "fieldtype": "Check",
+   "label": "Business Card"
+  },
+  {
+   "default": "0",
+   "fieldname": "identity_card",
+   "fieldtype": "Check",
+   "label": "Identity Card"
+  },
+  {
+   "fieldname": "column_break_22",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "uniform",
+   "fieldtype": "Check",
+   "label": "Uniform"
+  },
+  {
+   "default": "0",
+   "fieldname": "safety_shoes",
+   "fieldtype": "Check",
+   "label": "Safety Shoes"
+  },
+  {
+   "default": "0",
+   "fieldname": "safety_equipment",
+   "fieldtype": "Check",
+   "label": "Safety Equipment"
+  },
+  {
+   "fieldname": "key_responsibility_areas_section",
+   "fieldtype": "Section Break",
+   "label": "Key Responsibility Areas"
+  },
+  {
+   "fieldname": "kra",
+   "fieldtype": "Table",
+   "options": "KRA"
+  },
+  {
+   "fieldname": "note",
+   "fieldtype": "Text",
+   "label": "Note"
+  },
+  {
+   "fieldname": "section_break_29",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "experience_required",
+   "fieldtype": "Select",
+   "label": "Experience Required",
+   "options": "\nFresher\n01 Years\n02 Years\n05 Years\n10 Years\n15 Years\n20 Years\n25 Years\n30 Years\n30+ Years"
+  },
+  {
+   "fieldname": "qualification_required",
+   "fieldtype": "Select",
+   "label": "Qualification Required",
+   "options": "\nBelow 8th\n8th\n10th\n12th\nGraduate\nPost Graduate\nUnder Graduate"
+  }
+ ],
+ "modified": "2020-12-14 15:48:35.532159",
+ "modified_by": "Administrator",
+ "module": "Hr Customization",
+ "name": "Job Description",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
