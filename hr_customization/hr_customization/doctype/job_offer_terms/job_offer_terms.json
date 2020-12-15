@@ -1,0 +1,41 @@
+{
+ "creation": "2020-12-14 18:01:02.994409",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "offer_term",
+  "column_break_2",
+  "value"
+ ],
+ "fields": [
+  {
+   "fieldname": "offer_term",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Offer Term",
+   "options": "Offer Term",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "value",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Value / Description",
+   "reqd": 1
+  }
+ ],
+ "istable": 1,
+ "modified": "2020-12-15 15:18:34.890842",
+ "modified_by": "Administrator",
+ "module": "Hr Customization",
+ "name": "Job Offer Terms",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

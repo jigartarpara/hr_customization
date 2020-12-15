@@ -1,0 +1,789 @@
+{
+ "autoname": "naming_series:",
+ "creation": "2020-12-14 16:04:27.711188",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "recruitment_details_section",
+  "naming_series",
+  "title",
+  "job_application_source",
+  "column_break_5",
+  "date",
+  "status",
+  "applicants_details_section",
+  "salutation",
+  "first_name",
+  "middle_name",
+  "last_name",
+  "full_name",
+  "date_of_birth",
+  "age",
+  "gender",
+  "column_break_17",
+  "photo",
+  "aadhar_card",
+  "pan_card",
+  "driving_license",
+  "passport_no",
+  "marital_status",
+  "family_details_section",
+  "family_details_template",
+  "family_details",
+  "number_of_siblings",
+  "number_of_children",
+  "current_address_section",
+  "address_line_1",
+  "cityvillage",
+  "state",
+  "column_break_33",
+  "address_line_2",
+  "district",
+  "pin_code",
+  "permanent_address_section",
+  "same_as_above",
+  "column_break_39",
+  "a_l_1",
+  "c_v",
+  "s",
+  "column_break_43",
+  "a_l_2",
+  "d",
+  "p_c",
+  "contact_details_section",
+  "personal_mobile_number",
+  "email_address",
+  "abcd_column",
+  "emergency_mobile_number",
+  "education_qualification_detail",
+  "education_qualification_details",
+  "certificationtrainingshort_courses_section",
+  "certification_details",
+  "languages_known_section",
+  "languages_known_template",
+  "languages_known",
+  "experience_details_section",
+  "i_am_a_fresher",
+  "experience_details",
+  "present_employment_details_section",
+  "companyorganisation_name",
+  "phone",
+  "email_address_1",
+  "column_break_67",
+  "address",
+  "section_break_69",
+  "date_of_joining",
+  "designation_on_joining",
+  "number_of_subordinators",
+  "column_break_73",
+  "present_designation",
+  "reporting_to",
+  "current_monthly_salary_structure_section",
+  "salary_template",
+  "salary_structure_table",
+  "references_section",
+  "give_name_of_two_persons",
+  "section_break_81",
+  "yes",
+  "column_break_82",
+  "no",
+  "column_break_84",
+  "column_break_85",
+  "column_break_86",
+  "column_break_87",
+  "can_we_contact",
+  "yes_1",
+  "column_break_90",
+  "no_1",
+  "column_break_92",
+  "column_break_93",
+  "column_break_94",
+  "column_break_95",
+  "are_you_related",
+  "yes_2",
+  "column_break_98",
+  "no_2",
+  "column_break_100",
+  "column_break_101",
+  "column_break_102",
+  "column_break_103",
+  "section_break_104",
+  "table_105",
+  "suitability_for_appointment_section",
+  "text_editor_107",
+  "expectations_section",
+  "expected_date_of_joining",
+  "any_other_expectation",
+  "column_break_111",
+  "notice_required_for_joining",
+  "monthly_salary_expectations",
+  "attachments_section",
+  "table_115",
+  "cover_letter",
+  "declaration_section",
+  "long_text_118",
+  "signature",
+  "interview_remarks_section",
+  "interviewer",
+  "interview_result",
+  "remarks",
+  "monthly_salary_offered_ctc",
+  "shift_timing",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "recruitment_details_section",
+   "fieldtype": "Section Break",
+   "label": "Recruitment Details"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Application No.",
+   "options": "MG-JAPP-.YYYY.-.####."
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Link",
+   "label": "Post Applied For",
+   "options": "Job Description"
+  },
+  {
+   "fieldname": "job_application_source",
+   "fieldtype": "Link",
+   "label": "Job Application Source",
+   "options": "Job Applicant Source"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status"
+  },
+  {
+   "fieldname": "applicants_details_section",
+   "fieldtype": "Section Break",
+   "label": "Applicant's Details"
+  },
+  {
+   "fieldname": "salutation",
+   "fieldtype": "Link",
+   "label": "Salutation",
+   "options": "Salutation"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "middle_name",
+   "fieldtype": "Data",
+   "label": "Middle Name"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Data",
+   "label": "Date of Birth"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Data",
+   "label": "Age"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Link",
+   "label": "Gender",
+   "options": "Gender"
+  },
+  {
+   "fieldname": "column_break_17",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "photo",
+   "fieldtype": "Attach Image",
+   "label": "Photo"
+  },
+  {
+   "fieldname": "aadhar_card",
+   "fieldtype": "Data",
+   "label": "Aadhar Card"
+  },
+  {
+   "fieldname": "pan_card",
+   "fieldtype": "Data",
+   "label": "Pan Card"
+  },
+  {
+   "fieldname": "driving_license",
+   "fieldtype": "Data",
+   "label": "Driving License"
+  },
+  {
+   "fieldname": "passport_no",
+   "fieldtype": "Data",
+   "label": "Passport No"
+  },
+  {
+   "fieldname": "marital_status",
+   "fieldtype": "Select",
+   "label": "Marital Status"
+  },
+  {
+   "fieldname": "family_details_section",
+   "fieldtype": "Section Break",
+   "label": "Family Details"
+  },
+  {
+   "fieldname": "family_details_template",
+   "fieldtype": "Link",
+   "label": "Family Details Template",
+   "options": "Family Details Template"
+  },
+  {
+   "fieldname": "family_details",
+   "fieldtype": "Table",
+   "label": "Family Details",
+   "options": "Family Details"
+  },
+  {
+   "fieldname": "number_of_siblings",
+   "fieldtype": "Data",
+   "label": "Number Of Siblings"
+  },
+  {
+   "fieldname": "number_of_children",
+   "fieldtype": "Data",
+   "label": "Number Of Children"
+  },
+  {
+   "fieldname": "current_address_section",
+   "fieldtype": "Section Break",
+   "label": "Current Address"
+  },
+  {
+   "fieldname": "address_line_1",
+   "fieldtype": "Data",
+   "label": "Address Line 1"
+  },
+  {
+   "fieldname": "cityvillage",
+   "fieldtype": "Select",
+   "label": "City/Village"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Select",
+   "label": "State"
+  },
+  {
+   "fieldname": "column_break_33",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address_line_2",
+   "fieldtype": "Data",
+   "label": "Address Line 2"
+  },
+  {
+   "fieldname": "district",
+   "fieldtype": "Select",
+   "label": "District"
+  },
+  {
+   "fieldname": "pin_code",
+   "fieldtype": "Data",
+   "label": "Pin Code"
+  },
+  {
+   "fieldname": "permanent_address_section",
+   "fieldtype": "Section Break",
+   "label": "Permanent Address"
+  },
+  {
+   "default": "0",
+   "fieldname": "same_as_above",
+   "fieldtype": "Check",
+   "label": "Same As Above"
+  },
+  {
+   "fieldname": "column_break_39",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "a_l_1",
+   "fieldtype": "Data",
+   "label": "Address Line 1"
+  },
+  {
+   "fieldname": "c_v",
+   "fieldtype": "Select",
+   "label": "City/Village"
+  },
+  {
+   "fieldname": "s",
+   "fieldtype": "Select",
+   "label": "State"
+  },
+  {
+   "fieldname": "column_break_43",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "a_l_2",
+   "fieldtype": "Data",
+   "label": "Address Line 2"
+  },
+  {
+   "fieldname": "d",
+   "fieldtype": "Select",
+   "label": "District"
+  },
+  {
+   "fieldname": "p_c",
+   "fieldtype": "Data",
+   "label": "Pin Code"
+  },
+  {
+   "fieldname": "contact_details_section",
+   "fieldtype": "Section Break",
+   "label": "Contact Details"
+  },
+  {
+   "fieldname": "personal_mobile_number",
+   "fieldtype": "Data",
+   "label": "Personal Mobile Number"
+  },
+  {
+   "fieldname": "email_address",
+   "fieldtype": "Data",
+   "label": "Email Address"
+  },
+  {
+   "fieldname": "abcd_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "emergency_mobile_number",
+   "fieldtype": "Data",
+   "label": "Emergency Mobile Number"
+  },
+  {
+   "fieldname": "education_qualification_detail",
+   "fieldtype": "Section Break",
+   "label": "Education Qualification Details"
+  },
+  {
+   "fieldname": "education_qualification_details",
+   "fieldtype": "Table",
+   "options": "Education Qualification Details"
+  },
+  {
+   "fieldname": "certificationtrainingshort_courses_section",
+   "fieldtype": "Section Break",
+   "label": "Certification/Training/Short Courses"
+  },
+  {
+   "fieldname": "certification_details",
+   "fieldtype": "Table",
+   "label": "Certification Details",
+   "options": "Certification Details"
+  },
+  {
+   "fieldname": "languages_known_section",
+   "fieldtype": "Section Break",
+   "label": "Languages Known"
+  },
+  {
+   "fieldname": "languages_known_template",
+   "fieldtype": "Link",
+   "label": "Languages Known Template",
+   "options": "Languages Known Template"
+  },
+  {
+   "fieldname": "languages_known",
+   "fieldtype": "Table",
+   "options": "Languages Known"
+  },
+  {
+   "fieldname": "experience_details_section",
+   "fieldtype": "Section Break",
+   "label": "Experience Details"
+  },
+  {
+   "default": "0",
+   "fieldname": "i_am_a_fresher",
+   "fieldtype": "Check",
+   "label": "I am a fresher"
+  },
+  {
+   "fieldname": "experience_details",
+   "fieldtype": "Table",
+   "options": "Experience Details"
+  },
+  {
+   "fieldname": "present_employment_details_section",
+   "fieldtype": "Section Break",
+   "label": "Present Employment Details"
+  },
+  {
+   "fieldname": "companyorganisation_name",
+   "fieldtype": "Data",
+   "label": "Company/Organisation Name"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "Phone"
+  },
+  {
+   "fieldname": "email_address_1",
+   "fieldtype": "Data",
+   "label": "Email Address"
+  },
+  {
+   "fieldname": "column_break_67",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "section_break_69",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "date_of_joining",
+   "fieldtype": "Date",
+   "label": "Date Of Joining"
+  },
+  {
+   "fieldname": "designation_on_joining",
+   "fieldtype": "Data",
+   "label": "Designation On Joining"
+  },
+  {
+   "fieldname": "number_of_subordinators",
+   "fieldtype": "Data",
+   "label": "Number Of Subordinators"
+  },
+  {
+   "fieldname": "column_break_73",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "present_designation",
+   "fieldtype": "Data",
+   "label": "Present Designation"
+  },
+  {
+   "fieldname": "reporting_to",
+   "fieldtype": "Data",
+   "label": "Reporting To"
+  },
+  {
+   "fieldname": "current_monthly_salary_structure_section",
+   "fieldtype": "Section Break",
+   "label": "Current Monthly Salary Structure"
+  },
+  {
+   "fieldname": "salary_template",
+   "fieldtype": "Link",
+   "label": "Salary Template",
+   "options": "Salary Template"
+  },
+  {
+   "fieldname": "salary_structure_table",
+   "fieldtype": "Table",
+   "label": "Salary Structure Table",
+   "options": "Salary Structure Table"
+  },
+  {
+   "fieldname": "references_section",
+   "fieldtype": "Section Break",
+   "label": "References"
+  },
+  {
+   "fieldname": "give_name_of_two_persons",
+   "fieldtype": "Table",
+   "label": "Please give name of two persons who know you well personally or professionally (Other than Relatives or Employees of Mahaveer Group)",
+   "options": "Applicant References"
+  },
+  {
+   "fieldname": "section_break_81",
+   "fieldtype": "Section Break",
+   "label": "Can we make contact to your present employer?"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "fieldname": "column_break_82",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "no",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "column_break_84",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_85",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_86",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_87",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "can_we_contact",
+   "fieldtype": "Section Break",
+   "label": "Can we contact prior to making an offer to you?"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes_1",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "fieldname": "column_break_90",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "no_1",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "column_break_92",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_93",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_94",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_95",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "are_you_related",
+   "fieldtype": "Section Break",
+   "label": "Are you related to any present or past employee of our group of companies?"
+  },
+  {
+   "default": "0",
+   "fieldname": "yes_2",
+   "fieldtype": "Check",
+   "label": "Yes"
+  },
+  {
+   "fieldname": "column_break_98",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "no_2",
+   "fieldtype": "Check",
+   "label": "No"
+  },
+  {
+   "fieldname": "column_break_100",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_101",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_102",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_103",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_104",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_105",
+   "fieldtype": "Table",
+   "options": "Applicant References MG"
+  },
+  {
+   "fieldname": "suitability_for_appointment_section",
+   "fieldtype": "Section Break",
+   "label": "Suitability For Appointment"
+  },
+  {
+   "fieldname": "text_editor_107",
+   "fieldtype": "Text Editor"
+  },
+  {
+   "fieldname": "expectations_section",
+   "fieldtype": "Section Break",
+   "label": "Expectations"
+  },
+  {
+   "fieldname": "expected_date_of_joining",
+   "fieldtype": "Date",
+   "label": "Expected Date of Joining"
+  },
+  {
+   "fieldname": "any_other_expectation",
+   "fieldtype": "Small Text",
+   "label": "Any other expectation"
+  },
+  {
+   "fieldname": "column_break_111",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "notice_required_for_joining",
+   "fieldtype": "Data",
+   "label": "Notice Required for Joining"
+  },
+  {
+   "fieldname": "monthly_salary_expectations",
+   "fieldtype": "Data",
+   "label": "Monthly Salary Expectations"
+  },
+  {
+   "fieldname": "attachments_section",
+   "fieldtype": "Section Break",
+   "label": "Attachments"
+  },
+  {
+   "fieldname": "table_115",
+   "fieldtype": "Table",
+   "options": "JA Attachment"
+  },
+  {
+   "fieldname": "cover_letter",
+   "fieldtype": "Text Editor",
+   "label": "Cover Letter"
+  },
+  {
+   "fieldname": "declaration_section",
+   "fieldtype": "Section Break",
+   "label": "Declaration"
+  },
+  {
+   "default": "I certify that foregoing information's are correct and complete to the best of my knowledge and belief and nothing has been concealed. In case the information provided by me is found wrong on any future date, my service can be terminated by you without any notice.",
+   "fieldname": "long_text_118",
+   "fieldtype": "Long Text",
+   "read_only": 1
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Signature",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "interview_remarks_section",
+   "fieldtype": "Section Break",
+   "label": "Interview Remarks"
+  },
+  {
+   "fieldname": "interviewer",
+   "fieldtype": "Data",
+   "label": "Interviewer"
+  },
+  {
+   "fieldname": "interview_result",
+   "fieldtype": "Select",
+   "label": "Interview Result",
+   "options": "\nSelected\nRejected\nMay be considered\nConsiderable for another job"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Text Editor",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "monthly_salary_offered_ctc",
+   "fieldtype": "Data",
+   "label": "Monthly Salary Offered (CTC)"
+  },
+  {
+   "fieldname": "shift_timing",
+   "fieldtype": "Link",
+   "label": "Shift Timing",
+   "options": "Shift Type"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Job Application",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "modified": "2020-12-15 15:17:02.604106",
+ "modified_by": "Administrator",
+ "module": "Hr Customization",
+ "name": "Job Application",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

@@ -1,72 +1,111 @@
 {
- "allow_rename": 1,
- "creation": "2020-12-14 15:18:44.484297",
+ "allow_import": 1,
+ "autoname": "naming_series:",
+ "creation": "2020-12-14 15:44:19.610795",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "naming_series",
+  "skip_restriction",
   "title",
   "department",
+  "experience_required",
+  "qualification_required",
+  "column_break_6",
+  "company",
+  "location",
+  "number_of_vacancy",
+  "job_description_details_section",
   "reports_to",
-  "section_break_4",
   "general_overview_of_the_position",
-  "section_break_6",
   "main_duties_and_responsibilities",
   "other_duties",
-  "section_break_9",
   "internal_key_contacts",
   "external_key_contacts",
-  "resources_section",
   "desktop",
   "laptop",
   "tablet",
   "mobile_phone",
-  "column_break_17",
   "official_gmail_account",
   "official_mobile_number",
   "business_card",
   "identity_card",
-  "column_break_22",
   "uniform",
   "safety_shoes",
   "safety_equipment",
-  "key_responsibility_areas_section",
-  "kra",
   "note",
-  "section_break_29",
-  "experience_required",
-  "qualification_required"
+  "kra",
+  "amended_from"
  ],
  "fields": [
   {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "MG-JVAC-.YYYY.-.####."
+  },
+  {
+   "default": "0",
+   "fieldname": "skip_restriction",
+   "fieldtype": "Check",
+   "label": "skip_restriction",
+   "permlevel": 5
+  },
+  {
    "fieldname": "title",
-   "fieldtype": "Data",
-   "label": "Title"
+   "fieldtype": "Link",
+   "label": "Select Job Description",
+   "options": "Job Description"
   },
   {
    "fieldname": "department",
-   "fieldtype": "Link",
-   "label": "Department",
-   "options": "Department"
+   "fieldtype": "Data",
+   "label": "Department"
+  },
+  {
+   "fieldname": "experience_required",
+   "fieldtype": "Data",
+   "label": "Experience Required"
+  },
+  {
+   "fieldname": "qualification_required",
+   "fieldtype": "Data",
+   "label": "Qualification Required"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Select",
+   "label": "Company"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Select",
+   "label": "Location"
+  },
+  {
+   "fieldname": "number_of_vacancy",
+   "fieldtype": "Select",
+   "label": "Number of Vacancy"
+  },
+  {
+   "fieldname": "job_description_details_section",
+   "fieldtype": "Section Break",
+   "label": "Job Description Details"
   },
   {
    "fieldname": "reports_to",
-   "fieldtype": "Select",
-   "label": "Reports To",
-   "options": "\nDirector\nVice President\nAssistant Vice President\nGeneral Manager\nAssistant General Manager\nDeputy General Manager\nSr. Manager\nAssistant Manager\nSr. Supervisor\nSupervisor\nTeam Leader"
-  },
-  {
-   "fieldname": "section_break_4",
-   "fieldtype": "Section Break"
+   "fieldtype": "Data",
+   "label": "Reports To"
   },
   {
    "fieldname": "general_overview_of_the_position",
    "fieldtype": "Text Editor",
    "label": "General Overview of the Position"
-  },
-  {
-   "fieldname": "section_break_6",
-   "fieldtype": "Section Break"
   },
   {
    "fieldname": "main_duties_and_responsibilities",
@@ -81,23 +120,14 @@
    "options": "Job Role Responsibilities"
   },
   {
-   "fieldname": "section_break_9",
-   "fieldtype": "Section Break"
-  },
-  {
    "fieldname": "internal_key_contacts",
-   "fieldtype": "Small Text",
+   "fieldtype": "Long Text",
    "label": "Internal Key Contacts"
   },
   {
    "fieldname": "external_key_contacts",
-   "fieldtype": "Small Text",
+   "fieldtype": "Long Text",
    "label": "External Key Contacts"
-  },
-  {
-   "fieldname": "resources_section",
-   "fieldtype": "Section Break",
-   "label": "Resources"
   },
   {
    "default": "0",
@@ -124,10 +154,6 @@
    "label": "Mobile Phone"
   },
   {
-   "fieldname": "column_break_17",
-   "fieldtype": "Column Break"
-  },
-  {
    "default": "0",
    "fieldname": "official_gmail_account",
    "fieldtype": "Check",
@@ -152,10 +178,6 @@
    "label": "Identity Card"
   },
   {
-   "fieldname": "column_break_22",
-   "fieldtype": "Column Break"
-  },
-  {
    "default": "0",
    "fieldname": "uniform",
    "fieldtype": "Check",
@@ -174,41 +196,30 @@
    "label": "Safety Equipment"
   },
   {
-   "fieldname": "key_responsibility_areas_section",
-   "fieldtype": "Section Break",
-   "label": "Key Responsibility Areas"
+   "fieldname": "note",
+   "fieldtype": "Long Text",
+   "label": "Note"
   },
   {
    "fieldname": "kra",
    "fieldtype": "Table",
+   "label": "KRA",
    "options": "KRA"
   },
   {
-   "fieldname": "note",
-   "fieldtype": "Text",
-   "label": "Note"
-  },
-  {
-   "fieldname": "section_break_29",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "experience_required",
-   "fieldtype": "Select",
-   "label": "Experience Required",
-   "options": "\nFresher\n01 Years\n02 Years\n05 Years\n10 Years\n15 Years\n20 Years\n25 Years\n30 Years\n30+ Years"
-  },
-  {
-   "fieldname": "qualification_required",
-   "fieldtype": "Select",
-   "label": "Qualification Required",
-   "options": "\nBelow 8th\n8th\n10th\n12th\nGraduate\nPost Graduate\nUnder Graduate"
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Job Vacancy",
+   "print_hide": 1,
+   "read_only": 1
   }
  ],
- "modified": "2020-12-15 15:17:31.353910",
+ "modified": "2020-12-15 15:17:25.217416",
  "modified_by": "Administrator",
  "module": "Hr Customization",
- "name": "Job Description",
+ "name": "Job Vacancy",
  "owner": "Administrator",
  "permissions": [
   {
