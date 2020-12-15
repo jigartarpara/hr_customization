@@ -1,0 +1,27 @@
+{
+ "creation": "2020-12-14 16:56:22.426683",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "parameter"
+ ],
+ "fields": [
+  {
+   "fieldname": "parameter",
+   "fieldtype": "Data",
+   "label": "Parameter"
+  }
+ ],
+ "istable": 1,
+ "modified": "2020-12-14 16:56:22.426683",
+ "modified_by": "Administrator",
+ "module": "Hr Customization",
+ "name": "Language Known Parameter",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

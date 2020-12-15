@@ -1,0 +1,114 @@
+{
+ "autoname": "naming_series:",
+ "creation": "2020-12-14 18:01:28.696932",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "job_application",
+  "salutation",
+  "applicant_name",
+  "applicant_email_address",
+  "column_break_6",
+  "status",
+  "designation",
+  "company",
+  "section_break_10",
+  "job_offer_terms",
+  "select_terms_and_conditions",
+  "terms_and_conditions"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "MG-JOFR-.YYYY.-.####."
+  },
+  {
+   "fieldname": "job_application",
+   "fieldtype": "Link",
+   "label": "Job Application No.",
+   "options": "Job Application"
+  },
+  {
+   "fieldname": "salutation",
+   "fieldtype": "Data",
+   "label": "Salutation"
+  },
+  {
+   "fieldname": "applicant_name",
+   "fieldtype": "Data",
+   "label": "Applicant Name"
+  },
+  {
+   "fieldname": "applicant_email_address",
+   "fieldtype": "Data",
+   "label": "Applicant Email Address"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Awaiting Response\nAccepted\nRejected"
+  },
+  {
+   "fieldname": "designation",
+   "fieldtype": "Data",
+   "label": "Designation"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Data",
+   "label": "Company"
+  },
+  {
+   "fieldname": "section_break_10",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "job_offer_terms",
+   "fieldtype": "Table",
+   "label": "Job Offer Terms",
+   "options": "Job Offer Terms"
+  },
+  {
+   "fieldname": "select_terms_and_conditions",
+   "fieldtype": "Link",
+   "label": "Select Terms and Conditions",
+   "options": "Terms and Conditions"
+  },
+  {
+   "fieldname": "terms_and_conditions",
+   "fieldtype": "Text Editor",
+   "label": "Terms and Conditions"
+  }
+ ],
+ "modified": "2020-12-14 18:01:28.696932",
+ "modified_by": "Administrator",
+ "module": "Hr Customization",
+ "name": "Job Offer Letter",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

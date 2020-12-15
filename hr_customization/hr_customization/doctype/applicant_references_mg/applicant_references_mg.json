@@ -1,0 +1,52 @@
+{
+ "creation": "2020-12-14 17:22:30.615023",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name_of_employee",
+  "relationship",
+  "position",
+  "department",
+  "working_status"
+ ],
+ "fields": [
+  {
+   "fieldname": "name_of_employee",
+   "fieldtype": "Data",
+   "label": "Name Of Employee"
+  },
+  {
+   "fieldname": "relationship",
+   "fieldtype": "Data",
+   "label": "Relationship"
+  },
+  {
+   "fieldname": "position",
+   "fieldtype": "Data",
+   "label": "Position"
+  },
+  {
+   "fieldname": "department",
+   "fieldtype": "Data",
+   "label": "Department"
+  },
+  {
+   "fieldname": "working_status",
+   "fieldtype": "Select",
+   "label": "Working Status",
+   "options": "\nYes\nNo"
+  }
+ ],
+ "istable": 1,
+ "modified": "2020-12-14 17:22:30.615023",
+ "modified_by": "Administrator",
+ "module": "Hr Customization",
+ "name": "Applicant References MG",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

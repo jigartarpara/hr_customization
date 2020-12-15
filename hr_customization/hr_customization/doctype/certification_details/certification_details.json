@@ -1,0 +1,51 @@
+{
+ "creation": "2020-12-14 17:02:07.630942",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "subjectname_of_course",
+  "institution",
+  "from",
+  "to",
+  "purpose"
+ ],
+ "fields": [
+  {
+   "fieldname": "subjectname_of_course",
+   "fieldtype": "Data",
+   "label": "Subject/Name Of Course"
+  },
+  {
+   "fieldname": "institution",
+   "fieldtype": "Data",
+   "label": "Institution"
+  },
+  {
+   "fieldname": "from",
+   "fieldtype": "Data",
+   "label": "From"
+  },
+  {
+   "fieldname": "to",
+   "fieldtype": "Data",
+   "label": "To"
+  },
+  {
+   "fieldname": "purpose",
+   "fieldtype": "Data",
+   "label": "Purpose"
+  }
+ ],
+ "istable": 1,
+ "modified": "2020-12-14 17:02:07.630942",
+ "modified_by": "Administrator",
+ "module": "Hr Customization",
+ "name": "Certification Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

@@ -1,0 +1,57 @@
+{
+ "creation": "2020-12-14 16:59:09.521441",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "from",
+  "to",
+  "name_of_the_employer",
+  "position_held",
+  "annual_ctc",
+  "reason_for_leaving"
+ ],
+ "fields": [
+  {
+   "fieldname": "from",
+   "fieldtype": "Data",
+   "label": "From"
+  },
+  {
+   "fieldname": "to",
+   "fieldtype": "Data",
+   "label": "To"
+  },
+  {
+   "fieldname": "name_of_the_employer",
+   "fieldtype": "Data",
+   "label": "Name Of the Employer"
+  },
+  {
+   "fieldname": "position_held",
+   "fieldtype": "Data",
+   "label": "Position Held"
+  },
+  {
+   "fieldname": "annual_ctc",
+   "fieldtype": "Data",
+   "label": "Annual CTC"
+  },
+  {
+   "fieldname": "reason_for_leaving",
+   "fieldtype": "Data",
+   "label": "Reason For Leaving"
+  }
+ ],
+ "istable": 1,
+ "modified": "2020-12-14 17:00:07.326613",
+ "modified_by": "Administrator",
+ "module": "Hr Customization",
+ "name": "Experience Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

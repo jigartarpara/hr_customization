@@ -1,0 +1,51 @@
+{
+ "creation": "2020-12-14 16:24:18.852387",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name_of_exam",
+  "subject_group",
+  "boarduniversityschoolinstitute",
+  "year_of_passing",
+  "percentagegrade"
+ ],
+ "fields": [
+  {
+   "fieldname": "name_of_exam",
+   "fieldtype": "Data",
+   "label": "Name Of Exam"
+  },
+  {
+   "fieldname": "subject_group",
+   "fieldtype": "Data",
+   "label": "Subject Group"
+  },
+  {
+   "fieldname": "boarduniversityschoolinstitute",
+   "fieldtype": "Data",
+   "label": "Board/University/School/Institute"
+  },
+  {
+   "fieldname": "year_of_passing",
+   "fieldtype": "Data",
+   "label": "Year Of Passing"
+  },
+  {
+   "fieldname": "percentagegrade",
+   "fieldtype": "Data",
+   "label": "Percentage/Grade"
+  }
+ ],
+ "istable": 1,
+ "modified": "2020-12-14 16:24:18.852387",
+ "modified_by": "Administrator",
+ "module": "Hr Customization",
+ "name": "Education Qualification Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
