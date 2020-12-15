@@ -8,5 +8,5 @@ from frappe.model.document import Document
 
 class EmployeeOnboardingProcess(Document):
 	def validate(self):
-		if not doc.skip_restriction and not doc.job_offer_letter:
+		if not self.skip_restriction and not self.job_offer_letter:
 			frappe.throw("JOB Offer Letter is Mandatory")
