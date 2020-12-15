@@ -3,8 +3,10 @@
 # For license information, please see license.txt
 
 from __future__ import unicode_literals
-# import frappe
+import frappe
 from frappe.model.document import Document
 
 class JobVacancy(Document):
-	pass
+	def validate(self):
+		if not self.skip_restriction and not self.title:
+			frappe.throw("Select Job Description is Mandatory")

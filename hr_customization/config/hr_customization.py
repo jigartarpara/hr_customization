@@ -28,8 +28,8 @@ def get_data():
 				},
 				{
 					"type": "doctype",
-					"name": "Employee Onboarding",
-					"description": _("Employee Onboarding"),
+					"name": "Employee Onboarding Process",
+					"description": _("Employee Onboarding Process"),
 				}
 			]
 		},

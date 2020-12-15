@@ -6,6 +6,7 @@
  "engine": "InnoDB",
  "field_order": [
   "naming_series",
+  "skip_restriction",
   "job_application",
   "salutation",
   "applicant_name",
@@ -87,9 +88,16 @@
    "fieldname": "terms_and_conditions",
    "fieldtype": "Text Editor",
    "label": "Terms and Conditions"
+  },
+  {
+   "default": "0",
+   "fieldname": "skip_restriction",
+   "fieldtype": "Check",
+   "label": "skip_restriction",
+   "permlevel": 5
   }
  ],
- "modified": "2020-12-15 15:18:31.059498",
+ "modified": "2020-12-15 16:13:22.719590",
  "modified_by": "Administrator",
  "module": "Hr Customization",
  "name": "Job Offer Letter",

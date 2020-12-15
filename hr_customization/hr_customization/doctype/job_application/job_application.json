@@ -8,10 +8,12 @@
   "recruitment_details_section",
   "naming_series",
   "title",
-  "job_application_source",
+  "skip_restriction",
+  "job_vacancy",
   "column_break_5",
   "date",
   "status",
+  "job_application_source",
   "applicants_details_section",
   "salutation",
   "first_name",
@@ -762,9 +764,22 @@
    "options": "Job Application",
    "print_hide": 1,
    "read_only": 1
+  },
+  {
+   "fieldname": "job_vacancy",
+   "fieldtype": "Link",
+   "label": "Job Vacancy",
+   "options": "Job Vacancy"
+  },
+  {
+   "default": "0",
+   "fieldname": "skip_restriction",
+   "fieldtype": "Check",
+   "label": "skip_restriction",
+   "permlevel": 5
   }
  ],
- "modified": "2020-12-15 15:17:02.604106",
+ "modified": "2020-12-15 16:11:57.434414",
  "modified_by": "Administrator",
  "module": "Hr Customization",
  "name": "Job Application",
