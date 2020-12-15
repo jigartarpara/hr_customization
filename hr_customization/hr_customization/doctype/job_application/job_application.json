@@ -124,7 +124,6 @@
   "table_115",
   "cover_letter",
   "declaration_section",
-  "long_text_118",
   "signature",
   "interview_remarks_section",
   "interviewer",
@@ -714,12 +713,6 @@
    "label": "Declaration"
   },
   {
-   "default": "I certify that foregoing information's are correct and complete to the best of my knowledge and belief and nothing has been concealed. In case the information provided by me is found wrong on any future date, my service can be terminated by you without any notice.",
-   "fieldname": "long_text_118",
-   "fieldtype": "Long Text",
-   "read_only": 1
-  },
-  {
    "fieldname": "signature",
    "fieldtype": "Signature",
    "label": "Signature"
@@ -779,7 +772,7 @@
    "permlevel": 5
   }
  ],
- "modified": "2020-12-15 16:11:57.434414",
+ "modified": "2020-12-15 17:40:28.827159",
  "modified_by": "Administrator",
  "module": "Hr Customization",
  "name": "Job Application",
