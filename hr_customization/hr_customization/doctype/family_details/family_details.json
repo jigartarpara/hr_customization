@@ -12,21 +12,24 @@
   {
    "fieldname": "name1",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Name"
   },
   {
    "fieldname": "age",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Age"
   },
   {
    "fieldname": "occupation",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Occupation"
   }
  ],
  "istable": 1,
- "modified": "2020-12-15 15:17:06.215592",
+ "modified": "2020-12-19 13:28:11.763492",
  "modified_by": "Administrator",
  "module": "Hr Customization",
  "name": "Family Details",

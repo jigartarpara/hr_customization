@@ -10,3 +10,22 @@ class JobApplication(Document):
 	def validate(self):
 		if not self.skip_restriction and not self.job_vacancy:
 			frappe.throw("Job Vacancy is Mandatory")
+	
+	def _family_details_template(self):
+		if self.family_details_template:
+			doc = frappe.get_doc("Family Details Template", self.family_details_template)
+			if doc:
+				return doc.family_details_parameter
+	
+	def _languages_known_template(self):
+		if self.languages_known_template:
+			doc = frappe.get_doc("Languages Known Template", self.languages_known_template)
+			if doc:
+				return doc.language_known_parameter
+	
+	def _salary_template(self):
+		if self.salary_template:
+			doc = frappe.get_doc("Salary Template", self.salary_template)
+			if doc:
+				return doc.family_details_parameter
+
