@@ -705,7 +705,7 @@
   },
   {
    "fieldname": "cover_letter",
-   "fieldtype": "Data",
+   "fieldtype": "Text Editor",
    "label": "Cover Letter"
   },
   {
@@ -715,7 +715,7 @@
   },
   {
    "fieldname": "signature",
-   "fieldtype": "Data",
+   "fieldtype": "Signature",
    "label": "Signature"
   },
   {
@@ -774,7 +774,7 @@
   }
  ],
  "image_field": "photo",
- "modified": "2020-12-18 18:18:32.616359",
+ "modified": "2020-12-21 10:15:20.883592",
  "modified_by": "Administrator",
  "module": "Hr Customization",
  "name": "Job Application",

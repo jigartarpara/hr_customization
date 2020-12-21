@@ -9,6 +9,7 @@ from frappe.model.mapper import get_mapped_doc
 
 class JobApplication(Document):
 	def validate(self):
+		self.full_name = str(self.first_name) + " " + str(self.middle_name) + " " +str(self.last_name)
 		if not self.skip_restriction and not self.job_vacancy:
 			frappe.throw("Job Vacancy is Mandatory")
 	
