@@ -33,4 +33,100 @@ def get_data():
 				}
 			]
 		},
+		{
+			"label": _("Employee"),
+			"items": [
+				{
+					"type": "doctype",
+					"name": "Employee",
+					"description": _("Employee")
+				},
+			]
+		},
+		{
+			"label": _("Leaves"),
+			"items": [
+				{
+					"type": "doctype",
+					"name": "Leave Application",
+					"description": _("Leave Application")
+				},
+				{
+					"type": "doctype",
+					"name": "Leave Allocation",
+					"description": _("Leave Allocation")
+				}
+			]
+		},
+		{
+			"label": _("Performance"),
+			"items": [
+				{
+					"type": "doctype",
+					"name": "Appraisal",
+					"description": _("Appraisal")
+				},
+			]
+		},
+		{
+			"label": _("Shift Management"),
+			"items": [
+				{
+					"type": "doctype",
+					"name": "Shift Request",
+					"description": _("Shift Request")
+				},
+				{
+					"type": "doctype",
+					"name": "Shift Assignment",
+					"description": _("Shift Assignment")
+				},
+				{
+					"type": "doctype",
+					"name": "Update Shift Request",
+					"description": _("Update Shift Request")
+				}
+			]
+		},
+		{
+			"label": _("Approval"),
+			"items": [
+				{
+					"type": "doctype",
+					"name": "Gate Pass",
+					"description": _("Gate Pass")
+				},
+			]
+		},
+		{
+			"label": _("Reports"),
+			"items": [
+				{
+					"type": "report",
+					"name": "Employee Birthday",
+					"description": _("Employee Birthday"),
+					"is_query_report": True,
+					"reference_doctype": "Employee",
+				},
+				{
+					"type": "doctype",
+					"name": "Holiday List",
+					"description": _("Holiday List")
+				},
+				{
+					"type": "report",
+					"name": "Monthly Attendance Sheet",
+					"description": _("Monthly Attendance Sheet"),
+					"is_query_report": True,
+					"reference_doctype": "Attendance",
+				},
+				{
+					"type": "report",
+					"name": "Attendance Log Report",
+					"description": _("Attendance Log Report"),
+					"is_query_report": True,
+					"reference_doctype": "Attendance Log",
+				},
+			]
+		}
 	]
