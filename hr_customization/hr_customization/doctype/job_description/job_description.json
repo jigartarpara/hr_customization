@@ -1,5 +1,6 @@
 {
  "allow_rename": 1,
+ "autoname": "field:title",
  "creation": "2020-12-14 15:18:44.484297",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -41,7 +42,8 @@
   {
    "fieldname": "title",
    "fieldtype": "Data",
-   "label": "Title"
+   "label": "Title",
+   "unique": 1
   },
   {
    "fieldname": "department",
@@ -205,7 +207,7 @@
    "options": "\nBelow 8th\n8th\n10th\n12th\nGraduate\nPost Graduate\nUnder Graduate"
   }
  ],
- "modified": "2020-12-15 15:17:31.353910",
+ "modified": "2020-12-22 15:09:23.156902",
  "modified_by": "Administrator",
  "module": "Hr Customization",
  "name": "Job Description",
