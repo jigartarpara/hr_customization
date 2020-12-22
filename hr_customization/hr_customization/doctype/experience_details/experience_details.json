@@ -14,12 +14,12 @@
  "fields": [
   {
    "fieldname": "from",
-   "fieldtype": "Data",
+   "fieldtype": "Date",
    "label": "From"
   },
   {
    "fieldname": "to",
-   "fieldtype": "Data",
+   "fieldtype": "Date",
    "label": "To"
   },
   {
@@ -44,7 +44,7 @@
   }
  ],
  "istable": 1,
- "modified": "2020-12-15 15:18:38.493019",
+ "modified": "2020-12-22 15:18:25.386419",
  "modified_by": "Administrator",
  "module": "Hr Customization",
  "name": "Experience Details",
