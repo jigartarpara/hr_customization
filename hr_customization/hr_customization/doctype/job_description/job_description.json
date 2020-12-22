@@ -207,7 +207,7 @@
    "options": "\nBelow 8th\n8th\n10th\n12th\nGraduate\nPost Graduate\nUnder Graduate"
   }
  ],
- "modified": "2020-12-22 15:09:23.156902",
+ "modified": "2020-12-22 15:15:22.726244",
  "modified_by": "Administrator",
  "module": "Hr Customization",
  "name": "Job Description",
@@ -228,5 +228,6 @@
  ],
  "sort_field": "modified",
  "sort_order": "DESC",
+ "title_field": "title",
  "track_changes": 1
 }
