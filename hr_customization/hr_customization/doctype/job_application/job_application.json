@@ -88,29 +88,8 @@
   "references_section",
   "give_name_of_two_persons",
   "section_break_81",
-  "yes",
-  "column_break_82",
-  "no",
-  "column_break_84",
-  "column_break_85",
-  "column_break_86",
-  "column_break_87",
   "can_we_contact",
-  "yes_1",
-  "column_break_90",
-  "no_1",
-  "column_break_92",
-  "column_break_93",
-  "column_break_94",
-  "column_break_95",
   "are_you_related",
-  "yes_2",
-  "column_break_98",
-  "no_2",
-  "column_break_100",
-  "column_break_101",
-  "column_break_102",
-  "column_break_103",
   "section_break_104",
   "table_105",
   "suitability_for_appointment_section",
@@ -541,110 +520,14 @@
    "label": "Can we make contact to your present employer?"
   },
   {
-   "default": "0",
-   "fieldname": "yes",
-   "fieldtype": "Check",
-   "label": "Yes"
-  },
-  {
-   "fieldname": "column_break_82",
-   "fieldtype": "Column Break"
-  },
-  {
-   "default": "0",
-   "fieldname": "no",
-   "fieldtype": "Check",
-   "label": "No"
-  },
-  {
-   "fieldname": "column_break_84",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "column_break_85",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "column_break_86",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "column_break_87",
-   "fieldtype": "Column Break"
-  },
-  {
    "fieldname": "can_we_contact",
    "fieldtype": "Section Break",
    "label": "Can we contact prior to making an offer to you?"
   },
   {
-   "default": "0",
-   "fieldname": "yes_1",
-   "fieldtype": "Check",
-   "label": "Yes"
-  },
-  {
-   "fieldname": "column_break_90",
-   "fieldtype": "Column Break"
-  },
-  {
-   "default": "0",
-   "fieldname": "no_1",
-   "fieldtype": "Check",
-   "label": "No"
-  },
-  {
-   "fieldname": "column_break_92",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "column_break_93",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "column_break_94",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "column_break_95",
-   "fieldtype": "Column Break"
-  },
-  {
    "fieldname": "are_you_related",
    "fieldtype": "Section Break",
    "label": "Are you related to any present or past employee of our group of companies?"
-  },
-  {
-   "default": "0",
-   "fieldname": "yes_2",
-   "fieldtype": "Check",
-   "label": "Yes"
-  },
-  {
-   "fieldname": "column_break_98",
-   "fieldtype": "Column Break"
-  },
-  {
-   "default": "0",
-   "fieldname": "no_2",
-   "fieldtype": "Check",
-   "label": "No"
-  },
-  {
-   "fieldname": "column_break_100",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "column_break_101",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "column_break_102",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "column_break_103",
-   "fieldtype": "Column Break"
   },
   {
    "fieldname": "section_break_104",
@@ -725,8 +608,9 @@
   },
   {
    "fieldname": "interviewer",
-   "fieldtype": "Data",
-   "label": "Interviewer"
+   "fieldtype": "Link",
+   "label": "Interviewer",
+   "options": "User"
   },
   {
    "fieldname": "interview_result",
@@ -736,7 +620,7 @@
   },
   {
    "fieldname": "remarks",
-   "fieldtype": "Data",
+   "fieldtype": "Long Text",
    "label": "Remarks"
   },
   {
@@ -774,7 +658,7 @@
   }
  ],
  "image_field": "photo",
- "modified": "2020-12-21 10:15:20.883592",
+ "modified": "2020-12-23 15:09:23.654687",
  "modified_by": "Administrator",
  "module": "Hr Customization",
  "name": "Job Application",

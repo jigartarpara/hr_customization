@@ -13,10 +13,10 @@ class JobApplication(Document):
 		self.full_name = str(self.first_name) 
 		
 		if self.middle_name:
-			self.full_name += str(self.middle_name)
+			self.full_name += " " + str(self.middle_name)
 		
 		if self.last_name:
-			self.full_name += str(self.last_name)
+			self.full_name += " " + str(self.last_name)
 		
 		if not self.skip_restriction and not self.job_vacancy:
 			frappe.throw("Job Vacancy is Mandatory")
