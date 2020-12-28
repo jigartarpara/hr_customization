@@ -44,6 +44,41 @@ def get_data():
 			]
 		},
 		{
+			"label": _("Employee Life Cycle"),
+			"items": [
+				{
+					"type": "doctype",
+					"name": "Employee",
+					"description": _("Employee Details")
+				},
+				{
+					"type": "doctype",
+					"name": "Employee Onboarding Process",
+					"description": _("Employee Onboarding Process")
+				},
+				{
+					"type": "doctype",
+					"name": "Employee Skill Map",
+					"description": _("Employee Skill Map")
+				},
+				{
+					"type": "doctype",
+					"name": "Employee Promotion",
+					"description": _("Employee Promotions")
+				},
+				{
+					"type": "doctype",
+					"name": "Employee Transfer",
+					"description": _("Employee Transfer Details")
+				},
+				{
+					"type": "doctype",
+					"name": "Employee Separation",
+					"description": _("Employee Separation Details")
+				},
+			]
+		},
+		{
 			"label": _("Leaves"),
 			"items": [
 				{
