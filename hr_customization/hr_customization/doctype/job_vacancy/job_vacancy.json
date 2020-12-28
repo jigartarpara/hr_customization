@@ -36,6 +36,7 @@
   "safety_equipment",
   "note",
   "kra",
+  "status",
   "amended_from"
  ],
  "fields": [
@@ -214,9 +215,16 @@
    "options": "Job Vacancy",
    "print_hide": 1,
    "read_only": 1
+  },
+  {
+   "default": "Open",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Open\nClose"
   }
  ],
- "modified": "2020-12-22 15:15:58.727159",
+ "modified": "2020-12-26 17:39:50.900373",
  "modified_by": "Administrator",
  "module": "Hr Customization",
  "name": "Job Vacancy",
@@ -237,6 +245,5 @@
  ],
  "sort_field": "modified",
  "sort_order": "DESC",
- "title_field": "title",
  "track_changes": 1
 }
