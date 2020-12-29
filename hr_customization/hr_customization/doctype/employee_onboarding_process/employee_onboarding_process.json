@@ -22,8 +22,7 @@
   "assets_checklist",
   "more_information",
   "job_application",
-  "job_description",
-  "amended_from"
+  "job_description"
  ],
  "fields": [
   {
@@ -45,15 +44,6 @@
    "fieldtype": "Select",
    "label": "Status",
    "options": "\nPending\nIn Process\nCompleted"
-  },
-  {
-   "fieldname": "amended_from",
-   "fieldtype": "Link",
-   "label": "Amended From",
-   "no_copy": 1,
-   "options": "Employee Onboarding Process",
-   "print_hide": 1,
-   "read_only": 1
   },
   {
    "fieldname": "job_offer_letter",
@@ -140,16 +130,13 @@
    "options": "Asset Checklist"
   }
  ],
- "is_submittable": 1,
- "modified": "2020-12-23 16:00:55.817330",
+ "modified": "2020-12-29 15:16:42.616556",
  "modified_by": "Administrator",
  "module": "Hr Customization",
  "name": "Employee Onboarding Process",
  "owner": "Administrator",
  "permissions": [
   {
-   "amend": 1,
-   "cancel": 1,
    "create": 1,
    "delete": 1,
    "email": 1,
@@ -159,7 +146,6 @@
    "report": 1,
    "role": "System Manager",
    "share": 1,
-   "submit": 1,
    "write": 1
   }
  ],
