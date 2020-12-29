@@ -72,8 +72,9 @@
   },
   {
    "fieldname": "job_application",
-   "fieldtype": "Data",
-   "label": "Job Application"
+   "fieldtype": "Link",
+   "label": "Job Application",
+   "options": "Job Application"
   },
   {
    "fieldname": "job_description",
@@ -130,7 +131,7 @@
    "options": "Asset Checklist"
   }
  ],
- "modified": "2020-12-29 15:16:42.616556",
+ "modified": "2020-12-29 16:42:43.942621",
  "modified_by": "Administrator",
  "module": "Hr Customization",
  "name": "Employee Onboarding Process",

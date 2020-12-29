@@ -82,9 +82,10 @@
    "fieldname": "select_terms_and_conditions",
    "fieldtype": "Link",
    "label": "Select Terms and Conditions",
-   "options": "Terms and Conditions"
+   "options": "Job Offer Terms and Conditions"
   },
   {
+   "fetch_from": "select_terms_and_conditions.terms_and_conditions",
    "fieldname": "terms_and_conditions",
    "fieldtype": "Text Editor",
    "label": "Terms and Conditions"
@@ -97,7 +98,7 @@
    "permlevel": 5
   }
  ],
- "modified": "2020-12-26 15:53:57.129441",
+ "modified": "2020-12-29 16:38:34.457799",
  "modified_by": "Administrator",
  "module": "Hr Customization",
  "name": "Job Offer Letter",
