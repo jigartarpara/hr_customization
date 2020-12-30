@@ -4,10 +4,10 @@ from frappe import _
 
 def get_data():
     return {
-        'fieldname': 'full_name',
+        'fieldname': 'name',
         'non_standard_fieldnames': {
             'Job Offer Letter': 'job_application',
-            'Employee Onboarding Process': 'job_offer_letter'
+            'Employee Onboarding Process': 'job_application'
         },
         'transactions': [
             {
