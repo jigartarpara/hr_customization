@@ -61,4 +61,13 @@ frappe.ui.form.on('Job Application', {
 			}
 		})
 	},
+	job_vacancy: function(frm){
+		cur_frm.set_query("job_vacancy", function(){
+			return {
+				"filters": [{
+					'title': cur_frm.doc.title
+				}]
+			}
+		})
+	}
 });
