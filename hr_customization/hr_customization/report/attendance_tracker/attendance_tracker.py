@@ -70,15 +70,15 @@ def get_data(filters):
 				left join
 					`tabGate Pass` as gate_pass
 				on
-					attendance.employee = gate_pass.employee
+					attendance.employee = gate_pass.employee {1}
 				where 
-					1 = 1 {1}
+					1 = 1 
 			) as attendance
 		left join 
 			`tabOvertime Application` as overtime
 		on
-			attendance.employee = overtime.employee
+			attendance.employee = overtime.employee {0}
 		where
-			1=1 {0}
+			1=1 
 	""".format(condition,condition2))
 	return data
