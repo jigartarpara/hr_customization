@@ -144,6 +144,13 @@ def get_data():
 					"reference_doctype": "Employee",
 				},
 				{
+					"type": "report",
+					"name": "Attendance Tracker",
+					"description": _("Attendance Tracker"),
+					"is_query_report": True,
+					"reference_doctype": "Attendance",
+				}, 
+				{
 					"type": "doctype",
 					"name": "Holiday List",
 					"description": _("Holiday List")
