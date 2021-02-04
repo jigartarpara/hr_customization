@@ -3,15 +3,15 @@
 
 frappe.ui.form.on('Job Application', {
 	refresh: function(frm) {
-		if(!cur_frm.doc.__islocal) {;
-			var job_vacancy = frm.add_custom_button(__('Job Offer Letter'), function(){
-				frappe.model.open_mapped_doc({
-					method: "hr_customization.hr_customization.doctype.job_application.job_application.make_job_offer_letter",
-					frm: cur_frm
-				})
-			})
-			job_vacancy.addClass('btn-primary')
-		}
+		// if(!cur_frm.doc.__islocal) {;
+		// 	var job_vacancy = frm.add_custom_button(__('Job Offer Letter'), function(){
+		// 		frappe.model.open_mapped_doc({
+		// 			method: "hr_customization.hr_customization.doctype.job_application.job_application.make_job_offer_letter",
+		// 			frm: cur_frm
+		// 		})
+		// 	})
+		// 	job_vacancy.addClass('btn-primary')
+		// }
 	},
 	family_details_template: function(frm) {
 		frappe.call({
